@@ -6,7 +6,8 @@ This provides a small stub to demonstrate publishing to a RabbitMQ instance from
 
 ## Dev requirements
 
-### Gradle version 4.7 
+ * Java Development Kit 
+ * Gradle version 4.7 
 
 The following PPA can be used to add the required version of Gradle to a stock Ubuntu 16.04 / 18.04 machine
 
