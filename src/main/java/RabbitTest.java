@@ -8,7 +8,7 @@ public class RabbitTest {
     private final static String QUEUE_NAME    = "dispatch.email.Incoming";
     private final static String RABBITMQ_HOST = "23.101.219.122";
     private final static String USERNAME      = "guest";
-    private final static String PASSWORD      = "+qb9rv7e";
+    private final static String PASSWORD      = "";
     
     public static void main(String[] args) {
         try {

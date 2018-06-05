@@ -22,7 +22,6 @@ The following PPA can be used to add the required version of Gradle to a stock U
 
     $ gradle build
 
-
 ## Execute 
 
     $ gradle run
@@ -37,5 +36,5 @@ The following PPA can be used to add the required version of Gradle to a stock U
 
     "host": "rabbitmq://23.101.219.122",
     "username": "guest",
-    "password": "+qb9rv7e",
+    "password": "<provided>",
     "exchangeName": "dispatch.email.Incoming", // this may need to change
