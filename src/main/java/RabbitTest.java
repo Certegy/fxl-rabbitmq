@@ -5,17 +5,18 @@ import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
 public class RabbitTest {
-    private final static String QUEUE_NAME    = "dispatch.Incoming";
-    private final static String RABBITMQ_HOST = "172.28.128.3";
-    private final static String USERNAME      = "gx_admin";
-    private final static String PASSWORD      = "ceiDaoyei6ahth9H";
+    private final static String QUEUE_NAME    = "dispatch.email.Incoming";
+    private final static String RABBITMQ_HOST = "23.101.219.122";
+    private final static String USERNAME      = "guest";
+    private final static String PASSWORD      = "+qb9rv7e";
     
     public static void main(String[] args) {
         try {
             Channel channel = new RabbitTest().getChannel();
 
             MessageSender send = new MessageSender(channel, QUEUE_NAME);
-            send.SendMessage("test");               
+
+            send.SendMessage("test");
             
             channel.close();
             channel.getConnection().close();
